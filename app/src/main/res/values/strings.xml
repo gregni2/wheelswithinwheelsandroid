@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Wheels Within Wheels</string>
+    <string name="title_home">Watch List</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_watchlist_fragment">Your Stocks</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_correlation_fragment">Hello Correlation fragment</string>
+    <string name="correlations">Correlations</string>
+
+    <string-array name="correlation_array">
+        <item>Shadowing Stocks</item>
+        <item>Biggest Days</item>
+    </string-array>
+</resources>

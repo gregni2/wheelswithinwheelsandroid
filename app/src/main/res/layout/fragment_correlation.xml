@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.wheels.wheels.CorrelationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_vertical|center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Spinner
+                android:id="@+id/correlation_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10sp"/>
+
+            <TextView
+                android:id="@+id/daySlider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10sp"
+                android:text="30 Days"/>
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="100"
+                android:padding="10sp"
+                android:progress="50"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/correlation_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10sp"
+            android:text=""/>
+
+    </LinearLayout>
+
+</FrameLayout>
